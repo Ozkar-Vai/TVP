@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T13:27:21Z" name="Default suite" finished-at="2023-12-20T13:29:50Z" duration-ms="149437">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.perfecto.runner.webRunner@35432107]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-20T13:27:21Z" name="Default test" finished-at="2023-12-20T13:29:50Z" duration-ms="149437">
+      <class name="com.perfecto.runner.webRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.perfecto.runner.webRunner@35432107]" started-at="2023-12-20T18:57:21Z" name="setUpClass" finished-at="2023-12-20T18:57:21Z" duration-ms="767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33f2df51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.perfecto.runner.webRunner@35432107]" started-at="2023-12-20T18:57:21Z" name="beforeMethod" finished-at="2023-12-20T18:57:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.perfecto.runner.webRunner@35432107]" started-at="2023-12-20T18:57:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-20T18:59:47Z" duration-ms="145399" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["H_Validate Continuar option on floating menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SICRED_II_Flow"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[One or more fields not found]]>
+            </message>
+            <full-stacktrace>
+                <![CDATA[java.lang.Exception: One or more fields not found
+	at com.perfecto.pageObjects.FACapturaDatosAsistenciaComiteCTC.SetValuesToFields(FACapturaDatosAsistenciaComiteCTC.java:163)
+	at com.perfecto.stepdefinition.FACapturaDatosAsistenciaComiteCTCSteps.set_values_to_fields(FACapturaDatosAsistenciaComiteCTCSteps.java:36)
+	at ✽.set values to fields 'Arjona', 'Moreno' and 'Venavides'(file:///C:/Users/2357672/Downloads/FWB_Perfecto_v9/FWB-Perfecto/src/main/resources/Features/SICRED_Flow.feature:255)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.perfecto.runner.webRunner@35432107]" started-at="2023-12-20T18:59:47Z" name="afterMethod" finished-at="2023-12-20T18:59:50Z" duration-ms="3232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.perfecto.runner.webRunner@35432107] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.perfecto.runner.webRunner@35432107]" started-at="2023-12-20T18:59:50Z" name="tearDownClass" finished-at="2023-12-20T18:59:50Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.perfecto.runner.webRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
